@@ -157,6 +157,28 @@ input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px #0d1117 inset !important;
 }
 
+@media (min-width: 768px) and (max-width: 1400px) {
+  .user-outer {
+    font-size: 14px;
+  }
+
+  .clear {
+    width: 40vw;
+  }
+  .mainUsers {
+    width: 40vw;
+  }
+
+  .user {
+    width: 46vw;
+  }
+
+  .delete,
+  .change {
+    margin-right: 15px;
+  }
+}
+
 @media (max-width: 767px) {
   main {
     flex-direction: column;
@@ -165,10 +187,12 @@ input:-webkit-autofill:active {
     width: 100%;
     align-items: flex-start;
     margin-top: 20px;
+    font-size: 18px;
   }
 
   .user-outer {
     width: 400px;
+    font-size: 14px;
   }
 
   .clear {
@@ -177,5 +201,10 @@ input:-webkit-autofill:active {
 
   main {
     margin-top: 30px;
+  }
+
+  .delete,
+  .change {
+    margin-right: 50px;
   }
 }
